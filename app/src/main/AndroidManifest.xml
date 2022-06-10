@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CMS_Version_1">
         <activity
+            android:name=".ClubHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfile"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
